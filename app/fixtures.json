@@ -1,0 +1,263 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2023-04-30T13:20:32.167Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "admin",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"\\u0414\\u0430\\u0442\\u0430 \\u0440\\u043e\\u0436\\u0434\\u0435\\u043d\\u0438\\u044f\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2023-04-30T13:20:48.898Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "1",
+    "object_repr": "Александр Пушкин",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2023-04-30T13:21:28.348Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "2",
+    "object_repr": "Лев Толстой",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2023-04-30T13:21:46.211Z",
+    "user": 1,
+    "content_type": 8,
+    "object_id": "3",
+    "object_repr": "Федор Достоевский",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2023-04-30T13:23:21.031Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "(1) Капитанская дочка",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-04-30T13:23:56.741Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "(2) Пиковая дама",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-04-30T13:24:42.197Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "(3) Идиот",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-04-30T13:25:27.456Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "4",
+    "object_repr": "(4) Братья Карамазовы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-04-30T13:26:09.306Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "5",
+    "object_repr": "(5) Бесы",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-04-30T13:26:30.379Z",
+    "user": 1,
+    "content_type": 7,
+    "object_id": "1",
+    "object_repr": "599b7fb5bc4b1d41af18a6f01d5d38655361225c",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ef6j071x41luh51sfgnzkra4ea521ctw",
+  "fields": {
+    "session_data": ".eJxVjDsOwyAQBe9CHSHAaz4p0_sMaIElOIlAMnYV5e4RkoukfTPz3szjsRd_dNr8mtiVSXb53QLGJ9UB0gPrvfHY6r6tgQ-Fn7TzpSV63U7376BgL6Oec9RRTtZBNhoTAWAAVEFIi9KGOJNDkZWb0FhUkwMDTpkIQmlSlNnnC_AgN9M:1pt6wD:yODLhRf7ATL-OeBQgRoBmQ6r6YhJvcKqWCMj7tn8uOI",
+    "expire_date": "2023-05-14T13:18:01.615Z"
+  }
+},
+{
+  "model": "authtoken.token",
+  "pk": "599b7fb5bc4b1d41af18a6f01d5d38655361225c",
+  "fields": {
+    "user": 1,
+    "created": "2023-04-30T13:26:30.379Z"
+  }
+},
+{
+  "model": "api.author",
+  "pk": 1,
+  "fields": {
+    "first_name": "Александр",
+    "last_name": "Пушкин",
+    "birth_date": null
+  }
+},
+{
+  "model": "api.author",
+  "pk": 2,
+  "fields": {
+    "first_name": "Лев",
+    "last_name": "Толстой",
+    "birth_date": "1828-09-09"
+  }
+},
+{
+  "model": "api.author",
+  "pk": 3,
+  "fields": {
+    "first_name": "Федор",
+    "last_name": "Достоевский",
+    "birth_date": null
+  }
+},
+{
+  "model": "api.author",
+  "pk": 4,
+  "fields": {
+    "first_name": "admin",
+    "last_name": "test",
+    "birth_date": "2023-04-30"
+  }
+},
+{
+  "model": "api.book",
+  "pk": 1,
+  "fields": {
+    "name": "Капитанская дочка",
+    "author": 1,
+    "description": "На склоне лет помещик Пётр Андреевич Гринёв ведёт повествование о бурных событиях своей молодости. Детство своё он провёл в родительском поместье в Симбирской губернии, пока в 16 лет строгий отец — офицер в отставке — не распорядился отправить его служить в армию: «Полно ему бегать по девичьим да лазить на голубятни».",
+    "pub_date": "2023-04-30T13:23:21.029Z"
+  }
+},
+{
+  "model": "api.book",
+  "pk": 2,
+  "fields": {
+    "name": "Пиковая дама",
+    "author": 1,
+    "description": "Сюжет повести обыгрывает излюбленную Пушкиным (как и другими романтиками) тему непредсказуемой судьбы, фортуны, рока. Молодой военный инженер немец Германн ведёт скромную жизнь и копит состояние, он даже не берёт в руки карт и ограничивается только наблюдением за игрой. Его приятель Томский рассказывает историю, о том как его бабушка-графиня, будучи в Париже, проиграла крупную сумму в карты. Она попыталась взять взаймы у графа Сен-Жермена, но вместо денег тот раскрыл ей секрет трех выигрышных карт. Графиня, благодаря секрету, полностью отыгралась.",
+    "pub_date": "2023-04-30T13:23:56.740Z"
+  }
+},
+{
+  "model": "api.book",
+  "pk": 3,
+  "fields": {
+    "name": "Идиот",
+    "author": 3,
+    "description": "26-летний князь Лев Николаевич Мышкин возвращается из санатория в Швейцарии, где он провел несколько лет. Князь до конца не излечился от душевной болезни, но предстаёт перед читателем как человек искренний и невинный, хотя и прилично разбирающийся в отношениях между людьми. Он едет в Россию к единственным оставшимся у него родственникам — семье Епанчиных. В поезде он знакомится с молодым купцом Парфёном Рогожиным и отставным чиновником Лебедевым, которым бесхитростно рассказывает свою историю.",
+    "pub_date": "2023-04-30T13:24:42.195Z"
+  }
+},
+{
+  "model": "api.book",
+  "pk": 4,
+  "fields": {
+    "name": "Братья Карамазовы",
+    "author": 3,
+    "description": "Действие романа происходит в г. Скотопригоньевск (прототип Старой Руссы). Фёдор Павлович Карамазов, 55-летний прожига, женился на богатой женщине и стал распоряжаться её состоянием. Среди прочего он устраивал кутежи и терпел от жены побои. В конечном счёте жена уехала от него в Петербург с офицером, оставив отцу совсем малолетнего сына — Дмитрия. Не успев распорядиться своим состоянием, она в Петербурге умерла, и Фёдор Павлович получил возможность распоряжаться всем капиталом покойной.",
+    "pub_date": "2023-04-30T13:25:27.454Z"
+  }
+},
+{
+  "model": "api.book",
+  "pk": 5,
+  "fields": {
+    "name": "Бесы",
+    "author": 3,
+    "description": "",
+    "pub_date": "2023-04-30T13:26:09.305Z"
+  }
+},
+{
+  "model": "api.book",
+  "pk": 6,
+  "fields": {
+    "name": "Тестовая книга",
+    "author": 4,
+    "description": "Создана через API",
+    "pub_date": "2023-04-30T13:27:20.353Z"
+  }
+},
+{
+  "model": "users.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$600000$t1dQCMb87Y30cFhSzQqbfs$4k3cdzFuLsqi2Fjb6prz69OXLAGSNhEhy95MQgB6XbA=",
+    "last_login": "2023-04-30T13:18:01Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "admin",
+    "last_name": "test",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2023-04-30T13:17:54Z",
+    "birth_date": "2023-04-30",
+    "groups": [],
+    "user_permissions": []
+  }
+}
+]
